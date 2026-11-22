@@ -110,6 +110,10 @@ form {
     box-sizing: border-box;
 }
 
+.form-group textarea {
+    font-family: inherit;
+}
+
 .form-group select[multiple] {
     padding: 10px 15px;
 }
@@ -184,4 +188,36 @@ legend {
     width: 100px;
     height: 50px;
     padding: 3px;
+}
+
+/* zone en pointilles pour le drag & drop des fichiers */
+.form-group input[type="file"] {
+    width: auto;
+    padding: 12px;
+    border: 2px dashed #e0e0e0;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+.note {
+    margin: 22px 0 18px 0;
+    color: #666;
+    font-size: 13px;
+}
+
+.submit-zone {
+    padding-top: 6px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 18px 50px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #e94560 0%, #c72c41 100%);
+    box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
