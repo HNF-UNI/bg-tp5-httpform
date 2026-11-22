@@ -48,6 +48,44 @@
                     </div>
                 </div>
             </div>
+
+            <div class="section">
+                <h2>🎫 Formule d'abonnement</h2>
+                <fieldset>
+                    <legend>Choisissez votre formule :</legend>
+                    <div class="option">
+                        <input type="radio" id="basique" name="formule" value="basique" checked>
+                        <label for="basique">🥉 Basique - 4 séances/mois (2000 DA/mois)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="premium" name="formule" value="premium">
+                        <label for="premium">🥈 Premium - 10 séances/mois (4500 DA/mois)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="illimite" name="formule" value="illimite">
+                        <label for="illimite">🥇 Illimité - Séances illimitées (7000 DA/mois)</label>
+                    </div>
+                </fieldset>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="debut">Date de début souhaité :</label>
+                        <input type="month" id="debut" name="debut">
+                    </div>
+                    <div class="form-group">
+                        <label for="duree">Durée d'engagement :</label>
+                        <select id="duree" name="duree">
+                            <option value="">-- Sélectionner --</option>
+                            <option value="3">3 Mois</option>
+                            <option value="6">6 Mois (-5%)</option>
+                            <option value="12">12 Mois (-10%)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="accompagnants">Nombre d'accompagnants habituels :</label>
+                    <input type="number" id="accompagnants" name="accompagnants" value="0" min="0">
+                </div>
+            </div>
         </form>
     </div>
 </body>

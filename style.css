@@ -116,3 +116,39 @@ form {
     outline: none;
     border-color: #e94560;
 }
+
+fieldset {
+    margin: 0 0 3px 0;
+    padding: 28px 20px 8px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+legend {
+    padding: 0 15px;
+    color: #e94560;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* chaque choix radio/checkbox dans une petite boite blanche */
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 13px 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.option input {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    accent-color: #e94560;
+}
+
+.option label {
+    color: #333;
+    font-size: 15px;
+}
