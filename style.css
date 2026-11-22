@@ -110,6 +110,10 @@ form {
     box-sizing: border-box;
 }
 
+.form-group select[multiple] {
+    padding: 10px 15px;
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
