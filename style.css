@@ -156,3 +156,32 @@ legend {
     color: #333;
     font-size: 15px;
 }
+
+.range-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.range-row input {
+    flex: 1;
+    padding: 0;
+    border: none;
+    accent-color: #e94560;
+}
+
+.badge {
+    min-width: 60px;
+    padding: 8px 0;
+    border-radius: 20px;
+    background-color: #e94560;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-group input[type="color"] {
+    width: 100px;
+    height: 50px;
+    padding: 3px;
+}
